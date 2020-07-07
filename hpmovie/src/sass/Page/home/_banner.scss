@@ -1,0 +1,133 @@
+.banner {
+  margin-top: 72px;
+  .carousel {
+
+    .carousel-indicators{
+        bottom: 30px;
+        li{
+            width: 25px;
+            height: 5px;
+            background-color: $ZIGZAG-1-hex;
+        }
+    }
+
+    .carousel-inner {
+      .carousel-item {
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: unset;
+        }
+      }
+    }
+
+    .banner__list{
+      background-color: #fff;
+      position: absolute;
+    bottom: 0;
+    width: 65%;
+    left: 50%;
+    transform: translate(-50%,50%);
+      padding: 5px;
+      border-radius: 10px;
+      z-index: 10;
+    
+     
+
+
+      .tab__ul_1{
+        display: flex;
+        margin: 0;
+        align-items: center;
+
+        .tab__ul_2.tf{
+          display: block;
+        }
+
+        .tab__ul_2{
+          display: none;
+          cursor: pointer;;
+          max-height: 300px;
+  overflow-y: scroll;
+          position: absolute;
+          background: red;
+          left: 0;
+          top: 42px;
+          padding: 5px 0;
+          margin: 2px 0 0;
+          font-size: 14px;
+          text-align: left;
+          list-style: none;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          border: 1px solid rgba(0,0,0,.15);
+          border-radius: 4px;
+          box-shadow: 0 6px 12px rgba(0,0,0,.175);
+          .tab__li_2{
+            list-style: none;
+            display: block;
+            padding: 5px 30px;
+            clear: both;
+            font-weight: 500;
+      
+            color: #333;
+            white-space: nowrap;
+
+            &:hover{
+              color: $ZIGZAG-2-hex;
+            }
+          }
+        }
+        
+        .tab__li_1{
+
+          // overflow: hidden;
+          position: relative;
+          // text-overflow: ellipsis;
+          white-space: nowrap;
+          list-style: none;
+          width: 20%;
+          cursor: pointer;
+          padding: 10px 0;
+          border-right: 1px solid #ebebec;
+          
+          text-align: center;
+          // display: flex;
+          //   align-items: center;
+            // justify-content: space-around;
+           
+           
+            
+            &:last-child{
+            border-color: transparent;
+
+
+
+          }
+         .li__title{
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+          
+          a{
+            text-decoration: none;
+            color: black;
+            position: relative;
+          }
+
+        
+      
+        
+          button{
+            padding: 10px 15px;
+            background-color: $ZIGZAG-1-hex;
+            color: #fff;
+         
+
+           
+          }
+        }
+      }
+    }
+  }
+}

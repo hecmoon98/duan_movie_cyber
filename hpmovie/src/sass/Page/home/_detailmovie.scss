@@ -1,0 +1,116 @@
+.DetailMovie{
+    margin-top: 0px;
+    background: url("https://img.thuthuatphanmem.vn/uploads/2018/10/20/dark-galaxy-wallpaper-full-hd_104249853.jpg");
+    background-size: cover;
+    object-fit: cover;
+    margin-top: 72px;
+    
+    .DetailMovie__content{
+        padding: 60px 0;
+
+        .movie{
+            background: none;
+        }
+        .title__detail{
+            display: flex;
+            align-items: center;
+            color: white;
+            padding-bottom: 20px;
+
+          a{
+              font-size: 26px;
+              color: white;
+              text-decoration: none;
+              transition: 0.5s;
+              &:hover{
+                color: $ZIGZAG-1-hex;
+                
+            }
+          }
+            p{
+
+            }
+            div{
+                width: 1.5px;
+                margin: 0 10px;
+                height: 22px;
+                background: white;
+               
+            }
+            span{
+                font-size: 26px;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+        }
+
+        .DetailMovie__img{
+            img{
+                width: 100%;
+            }
+        }
+
+        .DetailMovie__right{
+            color: $white;
+
+            h3{
+                text-transform: uppercase;
+            }
+
+            p{
+                padding: 5px 0;
+                font-size: 14px;
+                color: #e8eff5;
+                font-weight: 800;
+                span{
+                    margin-left: 20px;
+                }
+
+
+                
+                &:nth-child(2){
+                    font-size: 15px;
+                    color: $grey2;
+                    font-weight: 700;
+                }
+            }
+
+            .DetailMovie__btn{
+                display: flex;
+                a{
+                    text-decoration: none;
+                }
+                .btn__buy{
+                    margin-right: 20px;
+                    width: 20%;
+
+                    padding: 7px 0px;
+                    border: 2px solid $ZIGZAG-1-hex;
+                    font-size: 18px;
+                    font-weight: 900;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: $ZIGZAG-1-hex;
+                    color: #fff;
+                    transition: all 0.2s;
+                   
+                 
+                    &:hover{
+                        background: rgb(255, 255, 255);
+                        color: $ZIGZAG-1-hex;
+                    }
+                    i{
+                        transform: skew(55deg,-55deg);
+                        font-size: 10px;
+                        margin: 0 10px;
+                    }
+                }
+            }
+            
+        }
+    }
+ 
+}
+
+

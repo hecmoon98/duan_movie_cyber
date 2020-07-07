@@ -1,0 +1,17 @@
+.news__sidebar{
+    .sidebar{
+        .sidebar-wrapper{
+            .nav-link.active{
+                background-color: $ZIGZAG-1-hex;
+                color: white;
+                font-weight: 600;
+              
+            }
+            .nav-link{
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

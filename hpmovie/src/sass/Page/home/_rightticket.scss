@@ -1,0 +1,86 @@
+.rightticket {
+  // margin-top: 72px;
+
+  position: fixed;
+  right: 0;
+  width: 26% !important;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 3;
+  height: 88%;
+  .buyticket {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 15px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    color: #e9e9e9 !important;
+    background-image: linear-gradient(223deg, #e9204f 0, #f241f6 100%);
+
+    a{
+     
+      text-decoration: none;
+      font-size: 24px;
+      color: #e9e9e9 !important;
+    }
+  }
+  .contentright {
+    height: 100%;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    .logofilm {
+      font-size: 34px;
+      color: #44c020;
+      border-bottom: 1px dashed #e9e9e9;
+      padding: 14px;
+      text-align: center;
+    }
+    .filmname {
+      border-bottom: 1px dashed #e9e9e9;
+      padding-bottom: 12.5px;
+      font-size: 14px;
+      padding-top: 10px;
+      .namefilm {
+        margin-top: 5px;
+      }
+      .address {
+        margin-top: 5px;
+      }
+      .hour {
+        margin-top: 5px;
+      }
+    }
+    .chair {
+      border-bottom: 1px dashed #e9e9e9;
+      padding-bottom: 12.5px;
+      padding-top: 12.5px;
+      .info {
+        color: #e9204f;
+      }
+      .totalchair {
+        span {
+          float: right;
+        }
+      }
+    }
+    .sum {
+      padding-bottom: 15px;
+      padding-top: 15px;
+      .namemoney {
+        color: #e9204f;
+      }
+      .money {
+        span {
+          color: #44c020;
+          font-size: 18px;
+          float: right;
+        }
+      }
+    }
+  }
+}

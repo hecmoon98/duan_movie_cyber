@@ -1,0 +1,37 @@
+.headerticket {
+  margin-top: 72px;
+  width: 75%;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  z-index: 3;
+  top: -1px;
+  left: 0;
+  height: 80px;
+  .stepcheckout {
+    float: left;
+    margin-left: 4.3%;
+    ul {
+      margin: 0;
+      .active{
+          color: $ZIGZAG-1-hex;
+      }
+      li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0 30px;
+        line-height: 80px;
+        font-size: 14px;
+        text-transform: uppercase;
+        .stepnumber{
+            font-size: 22px;
+            margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.ticKet{
+  margin-top: 72px;
+}

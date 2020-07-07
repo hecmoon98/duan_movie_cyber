@@ -1,0 +1,37 @@
+export const GET_LIST_MOVIE = "GET_LIST_MOVIE";
+
+export const GET_DETAIL_MOVIE = "GET_DETAIL_MOVIE";
+
+export const GET_LIST_CINEMA = "GET_LIST_CINEMA";
+
+export const GET_LIST_CUM_RAP = "GET_LIST_CUM_RAP";
+
+export const GET_THONG_TIN_LICH_CHIEU = "GET_THONG_TIN_LICH_CHIEU";
+
+export const LOADING = "LOADING";
+
+export const GET_LIST_PHONG_VE = "GET_LIST_PHONG_VE";
+
+export const POST_DAT_VE = "POST_DAT_VE";
+
+export const POST_DANG_NHAP_HOME = "POST_DANG_NHAP_HOME";
+
+export const GET_NEWS_CATEGORY = "GET_NEWS_CATEGORY";
+
+export const GET_NEWS = "GET_NEWS";
+
+export const GET_NEWS_DETAIL = "GET_NEWS_DETAIL";
+
+
+
+export const POST_ADMIN_NEWS = "POST_ADMIN_NEWS";
+export const DELETE_ADMIN_NEWS = "DELETE_ADMIN_NEWS";
+
+
+
+
+export const GET_LIST_MOVIE_ADMIN = "GET_LIST_MOVIE_ADMIN";
+
+
+
+

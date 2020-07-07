@@ -1,0 +1,162 @@
+.date__time{
+    
+
+
+   
+    .date__time__content{
+
+        .row{
+            background: white;
+            border-radius: 10px;
+            .col-sm-4{
+         
+                padding: 0;
+                border-right: 1px solid #ebebec;
+            
+            
+            .cinema_tab{
+                .tablinks.active{
+                    filter: grayscale(0%);
+                }
+
+                .tablinks{
+                    padding: 20px;
+                    display: flex;
+                    align-items: center;
+                    filter: grayscale(100%);
+                    
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 80%;
+                        height: 1px;
+                        background-color: #ebebec;
+                    }
+                    cursor: pointer;
+                    &:hover{
+                        filter: grayscale(0%);
+                    }
+
+                    
+                    img{
+                        width: 60px;
+                    }
+                    p{
+                        margin: 0;
+                        padding-left: 20px;
+                        font-weight: 700;
+                    }
+                }
+
+            }
+        }
+
+        .col-sm-8{
+            height: 600px;
+            .cinema_tab2{
+                height: 510px;
+            overflow-y: scroll;
+                .tabcontent{
+                   
+                    position: relative;
+                    margin-top: 10px;
+                    .clearrr{
+                        clear: both;
+                        &::after{
+                            content: "";
+                            position: absolute;
+                            bottom: -10px;
+                            left: 50%;
+                           
+                            transform: translateX(-50%);
+                            width: 100%;
+                            height: 1px;
+                            background-color: #ebebec;
+                           }
+
+                    }
+                    div{
+                        margin: 0px 12px;
+                        h3{
+                            color: $ZIGZAG-1-hex;
+                        }
+                        p{
+                            font-weight: 800;
+                            margin-bottom: 5px;
+                        }
+                    }
+                        .date_time{
+                          float: left;
+                            width:  calc(17%);
+                    text-decoration: none;
+                            font-weight: 700;
+                            margin: 0 0px 10px 0;
+                            padding: 8px;
+                            margin: 5px 10px;
+                            transition: all .2s;
+                            display: block;
+                            text-align: center;
+                            background-color: rgba(246,246,246,.5);
+                            border-radius: 8px;
+                            color: rgba(242, 65, 98, 0.74);
+                            border: 1px solid #e4e4e4;
+                            letter-spacing: -.12px;
+                            cursor: pointer;
+                            &:hover{
+                                color: $ZIGZAG-1-hex;
+                            }
+                            
+                        }
+                    
+                    
+                }
+            }
+
+            .date{
+               display: flex;
+               overflow: scroll;
+               padding: 20px 0;
+               
+
+                .tabcontent{
+                    cursor: pointer;
+                    padding: 5px 10px;
+                    position: relative;
+                    .navbar{
+                        
+                     background-color: $ZIGZAG-2-hex !important;
+                     border-radius: 10px;
+                        ul{
+                            
+                            li{
+                                a{
+                                 font-weight: 900;
+                                }
+                            }
+                        }
+                    }
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                       
+                        transform: translateX(-50%);
+                        width: 100%;
+                        height: 1px;
+                        background-color: #ebebec;
+                       }
+                    p{
+                        &:hover{
+                            color: $ZIGZAG-1-hex;
+                        }
+                    }
+                }
+            }
+        }
+        }
+    }
+}

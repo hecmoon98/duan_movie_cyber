@@ -1,0 +1,77 @@
+.news {
+  overflow: hidden;
+
+  .btn_detail_new{
+    text-align: center;
+    padding: 20px 0;
+    .MuiButton-outlinedPrimary {
+      color: $ZIGZAG-1-hex;
+      border: 1px solid $ZIGZAG-1-hex;
+      &:hover{
+        border: 1px solid $ZIGZAG-2-hex;
+        background-color: rgba(242,65,97, 0.08);
+
+      }
+    }
+  }
+
+  .news__content {
+    background: whitesmoke;
+  
+
+    header {
+        
+      box-shadow: none;
+      background-color: transparent;
+      color: black;
+
+      .MuiTabs-flexContainer {
+        width: 50%;
+        margin: 0 auto;
+        .Mui-selected {
+          color: $ZIGZAG-1-hex;
+        }
+        a {
+          text-decoration: none;
+          transition: all 0.5s;
+
+          .MuiTab-wrapper {
+            font-size: 20px;
+            font-weight: 500;
+          }
+          &:hover {
+            color: $ZIGZAG-1-hex;
+          }
+        }
+      }
+      .PrivateTabIndicator-colorSecondary-163 {
+        background-color: $ZIGZAG-1-hex;
+      }
+    }
+
+
+    .MuiTypography-root{
+      width: 85%;
+      margin: 0 auto;
+        .MuiBox-root {
+          a{
+            text-decoration: none;
+            color: black;
+          }
+          .MuiCard-root{
+            width: 100%;
+           }
+          
+            padding-top: 20px;
+            h2{
+                font-size: 18px;
+            }
+        }
+        
+
+        
+
+
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import "./Base/reset";
+
+@import "./Helpers/variable";
+@import "./Helpers/mixin";
+@import "./Helpers/extend";
+@import "./Helpers/animation";
+@import "./Component/button";
+
+@import './../../node_modules/react-modal-video/scss/modal-video.scss';
+@import "./Component/loading";
+@import "./Page/home/movie";
+@import "./Page/home/banner";
+@import "./Page/home/date-time.scss";
+@import "./Page/home/cinema";
+@import "./Layout/header"; 
+@import "./Page/home/detailmovie";
+@import "./Page/home/headerticket";
+@import "./Page/home/rightticket";
+@import "./Page/home/ticket";
+@import "./Page/home/new";
+@import "./Page/news/news";
+@import "./Page/news/news-sidebar";
+@import "./Page/news/admin";
+@import "./Page/home/login";
+@import "./Page/home/detail-news"
+
+
+
